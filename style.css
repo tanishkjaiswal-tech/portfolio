@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin: 50px 0 40px 0;
+}
+
+/* Skill Container */
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px 50px 20px;
+}
+
+/* Skill Card */
+.skill-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* Skill Headings with Colors */
+.programming { color: #4CAF50; }
+.ai { color: #2196F3; }
+.problem-solving { color: #FF9800; }
+.version-control { color: #9C27B0; }
+.learning { color: #00BCD4; }
+.projects { color: #FF5722; }
+
+/* Paragraph inside cards */
+.skill-card p {
+  color: #555;
+  line-height: 1.5;
+  margin-top: 10px;
+}
